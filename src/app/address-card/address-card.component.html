@@ -1,0 +1,15 @@
+<div>
+  <h1 hero="Ani"> Trying out if and for </h1>
+</div>
+<!-- <div *ngIf = "user.length">
+  <p *ngFor="let number of user">{{number}}</p>
+</div> -->
+<div>
+  <h1> {{userObj.name}}</h1>
+  <h2> {{userObj.title}} </h2>
+  <button (click) = "expandOrCollapse()">Expand/Collapse</button>
+  <div *ngIf="isCollapsed">
+    <h4> {{userObj.phone}} </h4>
+    <p> {{dear}}</p>
+  </div>
+</div>
